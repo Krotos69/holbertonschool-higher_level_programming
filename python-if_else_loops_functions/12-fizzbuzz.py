@@ -8,10 +8,8 @@ def fizzbuzz():
 		# Comprueba si el número es divisible por 3
 		elif number % 3 == 0:
 			print("Fizz", end=" ")
-			# Comprueba si el número es divisible por 5
+		# Comprueba si el número es divisible por 5
 		elif number % 5 == 0:
 			print("Buzz", end=" ")
 		else:
 			print(number, end=" ")
-# Llamar a la función fizzbuzz
-fizzbuzz()
