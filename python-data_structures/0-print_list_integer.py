@@ -4,6 +4,6 @@ def print_list_integer(my_list=[]):
 
     Args:
     my_list (list): List of integers.
-	"""
+    """
     for integer in my_list:
         print("{:d}".format(integer))
