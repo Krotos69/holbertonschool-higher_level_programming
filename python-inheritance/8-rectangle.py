@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-BaseGeometry = __import__('7-base_geometry').BaseGeometry
 """ Module that defines Rectangle class, which inherits from BaseGeometry."""
+
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
@@ -13,7 +14,7 @@ class Rectangle(BaseGeometry):
         super().integer_validator("width", width)
         super().integer_validator("height", height)
 
-        """Atribute initialization after validation."""
+        #Atribute initialization after validation
         self.__width = width
         self.__height = height
 
