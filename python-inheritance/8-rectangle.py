@@ -14,7 +14,7 @@ class Rectangle(BaseGeometry):
         super().integer_validator("width", width)
         super().integer_validator("height", height)
 
-        #Atribute initialization after validation
+        """ Atribute initialization after validation."""
         self.__width = width
         self.__height = height
 
