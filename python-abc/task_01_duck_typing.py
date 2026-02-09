@@ -21,10 +21,11 @@ class Circle(Shape):
     """Circle class inheriting from Shape"""
 	
     def __init__(self, radius):
-        self.radius = radius
+        self.radius = abs(radius)
 
     def area(self):
         return 3.14159265 * self.radius ** 2
+
     def perimeter(self):
         return 2 * 3.14159265 *self.radius
 
