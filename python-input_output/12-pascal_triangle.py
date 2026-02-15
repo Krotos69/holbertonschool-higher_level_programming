@@ -3,6 +3,7 @@
 12-pascal_triangle
 """
 
+
 def pascal_triangle(n):
     """
     Returns a list of lists of integers representing
