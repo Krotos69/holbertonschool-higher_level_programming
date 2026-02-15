@@ -2,6 +2,8 @@
 """
 Docstring for 11-student
 """
+
+
 class Student:
     """define student """
 
@@ -19,7 +21,7 @@ class Student:
                     if key in attrs
                     }
         return self.__dict__
-    
+
     def reload_from_json(self, json):
         """Load student data from a dictionary """
         for key, value in json.items():
