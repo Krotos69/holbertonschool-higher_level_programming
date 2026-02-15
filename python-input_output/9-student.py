@@ -1,10 +1,7 @@
 #!/usr/bin/python3
 """
-Docstring for 9-student
+class Student that defines a student
 """
-
-from typing import Self
-
 
 class Student:
     
