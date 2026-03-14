@@ -4,5 +4,7 @@
 Prototype: def raise_exception_msg(message=""):
 You are not allowed to import any module
 """
+
+
 def raise_exception_msg(message=""):
     raise NameError(message)
