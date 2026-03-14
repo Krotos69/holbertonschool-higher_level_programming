@@ -14,6 +14,8 @@ print: out of range
 You have to use try: / except: / finally:
 You are not allowed to import any module
 """
+
+
 def list_division(my_list_1, my_list_2, list_length):
     new_list = []
     for i in range(list_length):
