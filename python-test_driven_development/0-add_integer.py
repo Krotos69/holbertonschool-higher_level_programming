@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" this module provides a function 'add_interger' that adds two intergers"""
+
+
 def add_integer(a, b=98):
     """ adds two integers or floats after casting to int."""
     if not isinstance(a, (int,float)):
