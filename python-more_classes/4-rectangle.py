@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+""" class Rectangle that defines a rectangle  """
+
+
 class Rectangle:
     """Defines a rectangle with width and height."""
 
