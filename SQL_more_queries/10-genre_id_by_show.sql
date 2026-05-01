@@ -1,6 +1,6 @@
 -- Create and Import the database dump from hbtn_0d_tvshows 
 -- Command that lists all shows contained in hbtn_0d_tvshows
--- Each record should display-sorted in ascending order-
+-- Each record should display-sorted in ascending order
 SELECT tv_shows.title , tv_show_genres.genre_id
 FROM tv_shows
 JOIN tv_show_genres

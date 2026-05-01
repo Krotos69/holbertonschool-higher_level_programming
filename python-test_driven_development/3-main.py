@@ -6,4 +6,5 @@ say_my_name("Walter", "White")
 say_my_name("Bob")
 try:
     say_my_name(12, "White")
-except Except
+except Exception as e:
+    print(e)
