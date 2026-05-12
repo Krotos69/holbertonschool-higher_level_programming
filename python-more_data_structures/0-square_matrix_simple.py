@@ -1,4 +1,4 @@
-#!/usr/binpython3
+#!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
     """computes the square value of all intergers of a matrix"""
     new_matrix = []
