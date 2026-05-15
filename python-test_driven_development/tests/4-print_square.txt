@@ -1,64 +1,29 @@
-Trying:
-    print_square = __import__("4-print_square").print_square
-Expecting nothing
-ok
-Trying:
-    docstr = __import__("4-print_square").__doc__
-Expecting nothing
-ok
-Trying:
-    len(docstr) > 1
-Expecting:
-    True
-ok
-Trying:
-    print_square(2)
-Expecting:
-    ##
-    ##
-ok
-Trying:
-    print_square(4)
-Expecting:
-    ####
-    ####
-    ####
-    ####
-ok
-Trying:
-    print_square(0)
-Expecting nothing
-ok
-Trying:
-    print_square(2.5)
-Expecting:
-    Traceback (most recent call last):
-        ...
-    TypeError: size must be an integer
-ok
-Trying:
-    print_square("3")
-Expecting:
-    Traceback (most recent call last):
-        ...
-    TypeError: size must be an integer
-ok
-Trying:
-    print_square(-3)
-Expecting:
-    Traceback (most recent call last):
-        ...
-    ValueError: size must be >= 0
-ok
-Trying:
-    print_square()
-Expecting:
-    Traceback (most recent call last):
-        ...
-    TypeError: print_square() missing 1 required positional argument: 'size'
-ok
-1 items passed all tests:
-  10 tests in 4-print_square.txt
-10 tests in 1 items.
-10 passed and 0 failed.
-Test passed.
+>>> print_square = __import__("4-print_square").print_square
+
+>>> print_square(2)
+##
+##
+
+>>> print_square(4)
+####
+####
+####
+####
+
+>>> print_square(0)
+
+>>> print_square(2.5)
+Traceback (most recent call last):
+TypeError: size must be an integer
+
+>>> print_square("3")
+Traceback (most recent call last):
+TypeError: size must be an integer
+
+>>> print_square(-3)
+Traceback (most recent call last):
+ValueError: size must be >= 0
+
+>>> print_square()
+Traceback (most recent call last):
+TypeError: print_square() missing 1 required positional argument: 'size'
