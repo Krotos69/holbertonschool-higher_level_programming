@@ -65,4 +65,3 @@ Handling NaN
     Traceback (most recent call last):
     ...
     ValueError: cannot convert float NaN to integer
-	
