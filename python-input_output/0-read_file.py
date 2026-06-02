@@ -1,4 +1,4 @@
-#!?usr/bin/pyhton3
+#!/usr/bin/pyhton3
 """Defines a function that reads a text file and prints it to stdout."""
 
 def read_file(filename=""):
