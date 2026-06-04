@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-"""Returns a list of lists representing Pascal's triangle of size n."""
+"""Module that defines Pascal's triangle funtion."""
 
 def pascal_triangle(n):
+    """Returns a list of lists representing Pascal's triangle of size n.
+    """
     if n <= 0:
         return []
 
