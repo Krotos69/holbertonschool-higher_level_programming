@@ -6,6 +6,7 @@ from os.path import exists
 from save_to_json_file import save_to_json_file
 from load_from_json_file import load_from_json_file
 
+# Define the filename to store the list
 filename = "add_item.json"
 
 # Load existing list or create a new one
