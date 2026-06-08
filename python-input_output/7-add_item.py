@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Defines a function that adds all arguments to a Python list, and then save them to a file."""
+"""Defines a function that adds all arguments to a Python list,
+    and then save them to a file."""
 
 import sys
 from os.path import exists
