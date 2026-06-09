@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Define a Square class that computes the area of a square"""
+
+
 class Square:
     """Defines a square"""
 
