@@ -1,11 +1,9 @@
-Perfect, Krotos — here is a **Holberton‑style `README.md`**, clean, structured, and matching the format used in school projects.  
-It uses only the concepts you asked for, and it is fully Markdown‑ready.
 
 ---
 
 # **SQL - More queries**
 
-# 0x0D. MySQL – Users, Privileges & Relational Concepts  
+#  MySQL – Users, Privileges & Relational Concepts  
 
 
 
